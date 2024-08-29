@@ -1,0 +1,72 @@
+body {
+  min-height: 100vh;
+
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+.reveal-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reveal-button:hover {
+  background-color: #2980b9;
+}
+
+.ticket {
+  margin-top: 20px;
+  padding: 20px;
+  max-width: 360px;
+}
+
+.ticket-content {
+  text-align: center;
+}
+
+.ticket h2 {
+  font-size: 1.8rem;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.ticket p {
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+.expiry {
+  margin-top: 10px;
+  color: #444;
+  font-size: 1rem;
+  font-style: italic;
+}

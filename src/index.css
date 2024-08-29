@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.ticket-container {
+  text-align: center;
+}
+
+.ticket {
+  padding: 20px;
+}
+
+.expiry {
+  margin-top: 10px;
+  color: #444;
+  font-size: 14px;
+}
+
+button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
