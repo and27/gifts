@@ -17,7 +17,7 @@ const TicketComponent = () => {
       <div className="ticket-container">
         {!revealed && (
           <button className="reveal-button" onClick={() => setRevealed(true)}>
-            {"Ver premio 👀"}
+            {"Ver sorpresa 👀"}
           </button>
         )}
         {revealed && (
@@ -38,7 +38,7 @@ const TicketComponent = () => {
                     width="72.717"
                     height="34.07"
                     ry="4.3904"
-                    fill="none"
+                    fill="#ddd"
                     stroke="#444"
                     stroke-dasharray="0.665, 1.33"
                     stroke-linecap="round"
@@ -58,13 +58,13 @@ const TicketComponent = () => {
                     Válido por
                   </tspan>
                   <tspan x="46.15696" y="34.648422" text-align="center">
-                    una cena 🤩
+                    un cafecito ☕
                   </tspan>
                 </text>
               </svg>
             </div>
 
-            <p className="expiry">*Caduca este fin de semana*</p>
+            <p className="expiry">*Aplica términos y condiciones*</p>
           </>
         )}
       </div>
